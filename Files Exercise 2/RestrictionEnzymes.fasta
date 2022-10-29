@@ -1,0 +1,14 @@
+>Restriction_Enzyme_Aaal|From_5'_to_3'_cuts_after_first_appearing_Cytosin_("C")
+CGGCCG
+
+>Restriction_Enzyme_Blfl_(Bacillus_licheniformis)|From_5'_to_3'_cuts_after_first_appearing_Thymin ("T")
+TCCGGA
+
+>Restriction_Enzyme_Dmal_(Deleya_marina)|From_5'_to_3'_cuts_after_triplet_"CAG"
+CAGCTG
+
+>Restriction_Enzyme_Falll_(Flavobacterium_aquatile_Ob10)|From_5'_to_3'_cuts_after_first_appearing_pair_"CG" 
+CGCG
+
+>Restriction_Enzyme_Taql_(Thermus_aquaticus)|From_5'_to_3'_cuts_after_first_appearing_Thymin_("T")
+TCGA
