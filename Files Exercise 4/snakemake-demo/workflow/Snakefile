@@ -1,0 +1,17 @@
+rule map_reads:
+    input:
+        "data/samples/A.fastq",
+        "data/genome.fa",
+    output:
+        "results/mapped/B.bam",
+    shell:
+        "bwa mem {input} | samtools view -Sb - > {output}"
+
+
+rule sort_alignments:
+    input:
+        "results/mapped/{sample}.bam",
+    output:
+        "results/mapped/{sample}.sorted.bam",
+    shell:
+        "samtools sort -o {output} {input}"

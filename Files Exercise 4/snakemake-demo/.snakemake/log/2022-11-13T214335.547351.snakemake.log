@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule map_reads  in line 1 of /Users/furkan/Documents/Data Science in Bioinformatics/Day4/snakemake-demo/workflow/Snakefile:
+Missing input files for rule map_reads:
+    output: results/mapped/A.bam.txt
+    affected files:
+        /data/samples/A.fastq

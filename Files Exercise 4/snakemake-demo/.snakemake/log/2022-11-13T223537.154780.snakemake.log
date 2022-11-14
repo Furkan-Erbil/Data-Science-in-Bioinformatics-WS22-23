@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule sort_alignments  in line 10 of /Users/furkan/Documents/Data Science in Bioinformatics/Day4/snakemake-demo/workflow/Snakefile:
+Missing input files for rule sort_alignments:
+    output: results/mapped/A.sorted.bam
+    wildcards: sample=A
+    affected files:
+        results/mapped/A.bam
